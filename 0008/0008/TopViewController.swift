@@ -25,7 +25,7 @@ extension TopViewController {
         
     }
     
-    override func viewDidLoad():TopMainViewDelegate {
+    override func viewDidLoad(){
         super.viewDidLoad()
     }
     
@@ -35,7 +35,11 @@ extension TopViewController {
 }
 
 // MARK: - Protocol
-extension TopViewController {
+extension TopViewController:TopMainViewDelegate {
+    func touchedButton(_ sender: UIButton) {
+        print("ばい〜〜ん")
+    }
+    
     
 }
 
