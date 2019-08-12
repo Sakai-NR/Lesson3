@@ -8,23 +8,42 @@
 
 import UIKit
 
-class TopViewController: UIViewController {
+import PGFramework
 
+
+// MARK: - Property
+class TopViewController: BaseViewController {
+    @IBAction func touchedButton(_ sender: UIButton) {
+        let secondViewController = SecondViewController()
+        transitionViewController(from: self, to: secondViewController)
+        animatorManager.navigationType = .slide_push
+        
+    }
+    
+}
+
+// MARK: - Life cycle
+extension TopViewController {
+    override func loadView() {
+        super.loadView()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
-    */
-
 }
+
+// MARK: - Protocol
+extension TopViewController {
+    
+}
+
+// MARK: - method
+extension TopViewController {
+    
+}
+
