@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopViewController" customModule="_0033" customModuleProvider="target">
+            <connections>
+                <outlet property="topMainView" destination="dkp-zk-JV6" id="RQ8-Ki-9Gi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkp-zk-JV6" customClass="TopMainView" customModule="_0033" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="144" width="414" height="718"/>
+                    <color key="backgroundColor" red="0.47800914210000001" green="1" blue="0.97606297129999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dkp-zk-JV6" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="Jux-zT-I3V"/>
+                <constraint firstItem="dkp-zk-JV6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aYw-J4-B7R"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dkp-zk-JV6" secondAttribute="trailing" id="dEW-ny-PsS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dkp-zk-JV6" secondAttribute="bottom" id="nFS-1c-4NN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
