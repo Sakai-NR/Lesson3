@@ -1,6 +1,0 @@
-framework module Pods_007 {
-  umbrella header "Pods-007-umbrella.h"
-
-  export *
-  module * { export * }
-}

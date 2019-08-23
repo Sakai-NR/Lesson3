@@ -1,0 +1,6 @@
+framework module Pods_00054 {
+  umbrella header "Pods-00054-umbrella.h"
+
+  export *
+  module * { export * }
+}
