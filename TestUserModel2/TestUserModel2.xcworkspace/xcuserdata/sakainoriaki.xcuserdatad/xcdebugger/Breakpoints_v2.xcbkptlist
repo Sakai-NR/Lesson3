@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A72207EA-6002-4DA1-ABC3-074722A8CE9D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64F71FD2-6F02-4FE8-9791-D3546858A162"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8BA9483-BD05-4FCB-96EA-5A937684452B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "606F0891-1593-46F9-84CF-0DD6F0E03BC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A55E19AB-B276-425E-9CA5-EA99DD2170F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01A8FAF8-7E78-4B5F-A439-5BF9BD67105A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F7F6B67-202F-4ACA-BE20-C75DDDC88B64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "touchedButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - 5689cc7c58f5a4d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.userModels.getter : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - 62176fb7315f40dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.userModels.setter : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - 938b659610352ded"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.userModels.modify : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - 4861c009e3447ca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.userModels.modify : Swift.Array&lt;TestUserModel2.UserModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - 2d0a2f77e5a24067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TestUserModel2.SecondViewController"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "258">
+               </Location>
+               <Location
+                  uuid = "C8454E77-8D0A-401D-9636-9F2219DF6142 - adc1ee02dea4943a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TestUserModel2.SecondViewController&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2B32045-8A30-4735-8997-0310EACA0FDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "touchedButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D210CAC-0D59-44AB-9475-1667841D2125"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07699680-ABED-4938-B4E7-737ED58047FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B178C7FF-D5BB-4574-8313-76C364C008BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E70D5625-A8FA-43CE-B171-E36B36177419"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestUserModel2/SecondMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "SecondMainView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - cc4a4b85e44cc5d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.userModels.getter : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - 76338750bbe2b9ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.userModels.setter : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - 2f37fbcf728d4ed3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.userModels.modify : Swift.Array&lt;TestUserModel2.UserModel&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - 810d991059aeb1e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.userModels.modify : Swift.Array&lt;TestUserModel2.UserModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - 92b211f7532e9993"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.init(frame: __C.CGRect) -&gt; TestUserModel2.SecondMainView"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "273">
+               </Location>
+               <Location
+                  uuid = "255AE992-A9CB-4BDD-A3CD-12301F6F70A5 - 5a716d2d6e125dbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestUserModel2.SecondMainView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TestUserModel2.SecondMainView&gt;"
+                  moduleName = "TestUserModel2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakainoriaki/workspace/TestUserModel2/TestUserModel2/SecondMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

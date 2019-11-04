@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>224041292151-agdf0idvmt502kcldtsfi8603vsrkllm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.224041292151-agdf0idvmt502kcldtsfi8603vsrkllm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB77py2q6NEFexse688K7bDbpZNjA8rF8A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>224041292151</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nori.SignUp1</string>
+	<key>PROJECT_ID</key>
+	<string>signup1-2eb47</string>
+	<key>STORAGE_BUCKET</key>
+	<string>signup1-2eb47.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:224041292151:ios:062629898598e0eae41172</string>
+	<key>DATABASE_URL</key>
+	<string>https://signup1-2eb47.firebaseio.com</string>
+</dict>
+</plist>

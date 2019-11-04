@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReadMeMainView" customModule="Read1" customModuleProvider="target">
+            <connections>
+                <outlet property="ageLabel" destination="e2W-fV-lnt" id="eoo-9K-7qN"/>
+                <outlet property="disprictionLabel" destination="aSu-A2-ZdG" id="Iaq-ii-X4H"/>
+                <outlet property="nameLabel" destination="O58-Aa-efO" id="LFb-Td-60u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O58-Aa-efO">
+                    <rect key="frame" x="50" y="144" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2W-fV-lnt">
+                    <rect key="frame" x="50" y="215" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dispriction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSu-A2-ZdG">
+                    <rect key="frame" x="50" y="286" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-4D-s4O">
+                    <rect key="frame" x="50" y="357" width="314" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.65814783379999997" blue="0.98395949839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <state key="normal" title="ReadMe">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="readMeButton:" destination="-1" eventType="touchUpInside" id="wd8-Fr-6zl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="O58-Aa-efO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="Adx-wp-zNv"/>
+                <constraint firstItem="f0J-4D-s4O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="J5Y-Pe-5IP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="f0J-4D-s4O" secondAttribute="trailing" constant="50" id="JEF-oL-Txu"/>
+                <constraint firstItem="e2W-fV-lnt" firstAttribute="top" secondItem="O58-Aa-efO" secondAttribute="bottom" constant="50" id="K4n-ft-9f6"/>
+                <constraint firstItem="e2W-fV-lnt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="Lwt-qW-VXA"/>
+                <constraint firstItem="f0J-4D-s4O" firstAttribute="top" secondItem="aSu-A2-ZdG" secondAttribute="bottom" constant="50" id="QHd-4y-m7n"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="O58-Aa-efO" secondAttribute="trailing" constant="50" id="Swk-iP-gwb"/>
+                <constraint firstItem="aSu-A2-ZdG" firstAttribute="top" secondItem="e2W-fV-lnt" secondAttribute="bottom" constant="50" id="Vpl-YE-dgE"/>
+                <constraint firstItem="O58-Aa-efO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="bDv-1i-KSc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aSu-A2-ZdG" secondAttribute="trailing" constant="50" id="jnW-Cm-8Ag"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="e2W-fV-lnt" secondAttribute="trailing" constant="50" id="w3H-aW-RNJ"/>
+                <constraint firstItem="aSu-A2-ZdG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="wQf-ax-7LJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
