@@ -128,8 +128,8 @@
 				8FE8E524236D78B40031D624 /* Info.plist */,
 				8FE8E51C236D78B10031D624 /* TestUserModel2.xcdatamodeld */,
 				8FE690E123705F94001E4F31 /* Top */,
-				8FE690E323705FD6001E4F31 /* UserModel */,
 				8FE690E223705FC1001E4F31 /* Second */,
+				8FE690E323705FD6001E4F31 /* UserModel */,
 			);
 			path = TestUserModel2;
 			sourceTree = "<group>";

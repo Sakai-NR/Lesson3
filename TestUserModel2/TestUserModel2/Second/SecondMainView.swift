@@ -39,6 +39,7 @@ extension SecondMainView {
 
 // MARK: - method
 extension SecondMainView {
+    
     func UpdataSecondLabel(){
         secondAgeLabel.text = userModels[0].age
         secondNameLabel.text = userModels[1].name

@@ -31,8 +31,6 @@ extension SecondViewController {
         super.viewWillAppear(animated)
         copySecondModel()
         updataSecondLabel()
-        
-        
     }
 }
 
@@ -43,9 +41,11 @@ extension SecondViewController {
 
 // MARK: - method
 extension SecondViewController {
+    
     func copySecondModel(){
          SecondMainView.userModels = self.userModels
     }
+    
     func updataSecondLabel(){
         SecondMainView.UpdataSecondLabel()
         }
