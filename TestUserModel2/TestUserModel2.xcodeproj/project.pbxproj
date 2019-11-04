@@ -69,6 +69,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8FE690E123705F94001E4F31 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8E52A236D79270031D624 /* TopViewController.swift */,
+				8FE8E52B236D79270031D624 /* TopViewController.xib */,
+				8FE8E52E236D795D0031D624 /* TopMainView.swift */,
+				8FE8E52F236D795D0031D624 /* TopMainView.xib */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		8FE690E223705FC1001E4F31 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				8FE690D9236FD1DF001E4F31 /* SecondViewController.swift */,
+				8FE690DA236FD1DF001E4F31 /* SecondViewController.xib */,
+				8FE690DD236FD22C001E4F31 /* SecondMainView.swift */,
+				8FE690DE236FD22C001E4F31 /* SecondMainView.xib */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		8FE690E323705FD6001E4F31 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8E532236D7C9E0031D624 /* UserModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
 		8FE8E507236D78B10031D624 = {
 			isa = PBXGroup;
 			children = (
@@ -97,15 +127,9 @@
 				8FE8E521236D78B40031D624 /* LaunchScreen.storyboard */,
 				8FE8E524236D78B40031D624 /* Info.plist */,
 				8FE8E51C236D78B10031D624 /* TestUserModel2.xcdatamodeld */,
-				8FE8E52A236D79270031D624 /* TopViewController.swift */,
-				8FE8E52B236D79270031D624 /* TopViewController.xib */,
-				8FE8E52E236D795D0031D624 /* TopMainView.swift */,
-				8FE8E52F236D795D0031D624 /* TopMainView.xib */,
-				8FE8E532236D7C9E0031D624 /* UserModel.swift */,
-				8FE690D9236FD1DF001E4F31 /* SecondViewController.swift */,
-				8FE690DA236FD1DF001E4F31 /* SecondViewController.xib */,
-				8FE690DD236FD22C001E4F31 /* SecondMainView.swift */,
-				8FE690DE236FD22C001E4F31 /* SecondMainView.xib */,
+				8FE690E123705F94001E4F31 /* Top */,
+				8FE690E323705FD6001E4F31 /* UserModel */,
+				8FE690E223705FC1001E4F31 /* Second */,
 			);
 			path = TestUserModel2;
 			sourceTree = "<group>";
