@@ -29,7 +29,8 @@ extension SecondViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        copySecondModel()
+        
+        copySecondModels()
         updataSecondLabel()
     }
 }
@@ -42,7 +43,7 @@ extension SecondViewController {
 // MARK: - method
 extension SecondViewController {
     
-    func copySecondModel(){
+    func copySecondModels(){
          SecondMainView.userModels = self.userModels
     }
     
