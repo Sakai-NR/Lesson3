@@ -7,24 +7,35 @@
 //
 
 import UIKit
-
-class TopMainView: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+import PGFramework
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+protocol TopMainViewDelegate: NSObjectProtocol{
+    
 }
+
+extension TopMainViewDelegate {
+    
+}
+// MARK: - Property
+class TopMainView: BaseView {
+    weak var delegate: TopMainViewDelegate? = nil
+}
+
+// MARK: - Life cycle
+extension TopMainView {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+}
+
+// MARK: - Protocol
+extension TopMainView {
+    
+}
+
+// MARK: - method
+extension TopMainView {
+    
+}
+

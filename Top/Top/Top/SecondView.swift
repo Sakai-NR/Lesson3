@@ -1,14 +1,14 @@
 //
-//  TopMainTableView.swift
+//  SecondView.swift
 //  Top
 //
-//  Created by 酒井典昭 on 2019/10/10.
+//  Created by 酒井典昭 on 2019/11/06.
 //  Copyright © 2019 典昭酒井. All rights reserved.
 //
 
 import UIKit
 
-class TopMainTableView: UIViewController {
+class SecondView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
