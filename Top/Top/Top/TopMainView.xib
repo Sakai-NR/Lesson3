@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -55,42 +55,6 @@
                         <constraint firstItem="ZQA-Bf-mHn" firstAttribute="leading" secondItem="GXt-Mt-rqv" secondAttribute="leading" constant="16" id="liF-we-HqB"/>
                     </constraints>
                 </view>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="eYt-OM-aGn">
-                    <rect key="frame" x="8" y="616" width="398" height="120"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpc-Fa-d2i">
-                            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
-                            <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="120" id="kMd-qq-l3Y"/>
-                                <constraint firstAttribute="width" secondItem="Rpc-Fa-d2i" secondAttribute="height" multiplier="1:1" id="s6f-d2-DuE"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxe-Rb-nWz">
-                            <rect key="frame" x="139" y="0.0" width="120" height="120"/>
-                            <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="width" secondItem="vxe-Rb-nWz" secondAttribute="height" multiplier="1:1" id="at3-zc-jQT"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzl-0L-veT">
-                            <rect key="frame" x="278" y="0.0" width="120" height="120"/>
-                            <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="width" secondItem="Dzl-0L-veT" secondAttribute="height" multiplier="1:1" id="apc-bP-mbD"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                        </button>
-                    </subviews>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="120" id="50E-Fv-WuN"/>
-                        <constraint firstItem="vxe-Rb-nWz" firstAttribute="height" secondItem="Rpc-Fa-d2i" secondAttribute="height" id="b9H-k2-7Sq"/>
-                        <constraint firstItem="Dzl-0L-veT" firstAttribute="height" secondItem="Rpc-Fa-d2i" secondAttribute="height" id="nsQ-bD-XfZ"/>
-                        <constraint firstAttribute="width" constant="398" id="vmu-TT-d5E"/>
-                    </constraints>
-                </stackView>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="xEO-Th-vji">
                     <rect key="frame" x="0.0" y="113" width="414" height="258"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -105,45 +69,86 @@
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                 </collectionView>
-                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="mQ5-aa-maZ">
-                    <rect key="frame" x="8" y="426" width="398" height="166"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X8D-Os-UQU">
+                    <rect key="frame" x="8" y="499.5" width="398" height="195"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHe-fq-lgb">
-                            <rect key="frame" x="0.0" y="0.0" width="166" height="166"/>
-                            <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-fv-0jN">
+                            <rect key="frame" x="0.0" y="0.0" width="195" height="195"/>
+                            <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
-                                <constraint firstAttribute="width" secondItem="uHe-fq-lgb" secondAttribute="height" multiplier="1:1" id="TWZ-6I-wPo"/>
+                                <constraint firstAttribute="width" secondItem="g1s-fv-0jN" secondAttribute="height" multiplier="1:1" id="csJ-JT-2TK"/>
                             </constraints>
                             <state key="normal" title="Button"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0y-r0-72o">
-                            <rect key="frame" x="232" y="0.0" width="166" height="166"/>
-                            <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="width" secondItem="u0y-r0-72o" secondAttribute="height" multiplier="1:1" id="3BJ-mV-6ys"/>
-                            </constraints>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fz2-NC-ctY">
+                            <rect key="frame" x="203" y="0.0" width="195" height="195"/>
+                            <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Button"/>
                         </button>
                     </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="398" id="cdX-53-FAN"/>
-                        <constraint firstAttribute="height" constant="166" id="gMj-za-3fF"/>
-                        <constraint firstItem="u0y-r0-72o" firstAttribute="height" secondItem="uHe-fq-lgb" secondAttribute="height" id="jxY-rH-ePa"/>
+                        <constraint firstAttribute="bottom" secondItem="Fz2-NC-ctY" secondAttribute="bottom" id="5PA-OT-lIp"/>
+                        <constraint firstAttribute="bottom" secondItem="g1s-fv-0jN" secondAttribute="bottom" id="89G-GF-F1R"/>
+                        <constraint firstItem="Fz2-NC-ctY" firstAttribute="top" secondItem="X8D-Os-UQU" secondAttribute="top" id="LRJ-rV-rW1"/>
+                        <constraint firstAttribute="trailing" secondItem="Fz2-NC-ctY" secondAttribute="trailing" id="SUO-GP-Jbl"/>
+                        <constraint firstItem="g1s-fv-0jN" firstAttribute="leading" secondItem="X8D-Os-UQU" secondAttribute="leading" id="Uae-s2-Lw9"/>
+                        <constraint firstItem="g1s-fv-0jN" firstAttribute="top" secondItem="X8D-Os-UQU" secondAttribute="top" id="VJU-ZL-Tss"/>
+                        <constraint firstItem="g1s-fv-0jN" firstAttribute="width" secondItem="X8D-Os-UQU" secondAttribute="width" multiplier="0.49" id="kHl-So-cgP"/>
+                        <constraint firstItem="Fz2-NC-ctY" firstAttribute="width" secondItem="g1s-fv-0jN" secondAttribute="width" id="n0M-uA-Chg"/>
                     </constraints>
-                </stackView>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEy-Me-wg4">
+                    <rect key="frame" x="8" y="702.5" width="398" height="127.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTL-wd-GcW">
+                            <rect key="frame" x="0.0" y="0.0" width="127.5" height="127.5"/>
+                            <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="uTL-wd-GcW" secondAttribute="height" multiplier="1:1" id="XGy-TR-tL5"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4B-ZS-F9M">
+                            <rect key="frame" x="135.5" y="0.0" width="127" height="127.5"/>
+                            <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCr-JT-pLx">
+                            <rect key="frame" x="270.5" y="0.0" width="127.5" height="127.5"/>
+                            <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="t4B-ZS-F9M" firstAttribute="centerX" secondItem="IEy-Me-wg4" secondAttribute="centerX" id="6hR-sD-BQI"/>
+                        <constraint firstItem="uTL-wd-GcW" firstAttribute="width" secondItem="DCr-JT-pLx" secondAttribute="width" id="AVk-95-hfL"/>
+                        <constraint firstAttribute="bottom" secondItem="DCr-JT-pLx" secondAttribute="bottom" id="GJb-Vx-zlR"/>
+                        <constraint firstAttribute="bottom" secondItem="t4B-ZS-F9M" secondAttribute="bottom" id="Hm2-qx-wma"/>
+                        <constraint firstItem="DCr-JT-pLx" firstAttribute="top" secondItem="IEy-Me-wg4" secondAttribute="top" id="IrN-i8-tYA"/>
+                        <constraint firstItem="uTL-wd-GcW" firstAttribute="width" secondItem="IEy-Me-wg4" secondAttribute="width" multiplier="0.32" id="LJp-eb-CRi"/>
+                        <constraint firstItem="uTL-wd-GcW" firstAttribute="width" secondItem="t4B-ZS-F9M" secondAttribute="width" id="Ufd-1C-SNz"/>
+                        <constraint firstItem="uTL-wd-GcW" firstAttribute="top" secondItem="IEy-Me-wg4" secondAttribute="top" id="hL1-ft-nKf"/>
+                        <constraint firstAttribute="bottom" secondItem="uTL-wd-GcW" secondAttribute="bottom" id="pu5-jE-F1L"/>
+                        <constraint firstItem="t4B-ZS-F9M" firstAttribute="top" secondItem="IEy-Me-wg4" secondAttribute="top" id="utS-0c-Su9"/>
+                        <constraint firstAttribute="trailing" secondItem="DCr-JT-pLx" secondAttribute="trailing" id="y7p-5i-AAi"/>
+                        <constraint firstItem="uTL-wd-GcW" firstAttribute="leading" secondItem="IEy-Me-wg4" secondAttribute="leading" id="yNs-61-ZN0"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="xEO-Th-vji" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1Nt-OQ-xif"/>
                 <constraint firstItem="xEO-Th-vji" firstAttribute="top" secondItem="GXt-Mt-rqv" secondAttribute="bottom" id="1l8-qk-0si"/>
-                <constraint firstItem="mQ5-aa-maZ" firstAttribute="top" secondItem="xEO-Th-vji" secondAttribute="bottom" constant="55" id="BiJ-ro-rOh"/>
-                <constraint firstAttribute="trailing" secondItem="mQ5-aa-maZ" secondAttribute="trailing" constant="8" id="RWp-bN-QGk"/>
-                <constraint firstItem="eYt-OM-aGn" firstAttribute="top" secondItem="mQ5-aa-maZ" secondAttribute="bottom" constant="24" id="YUX-nT-iC9"/>
-                <constraint firstItem="eYt-OM-aGn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="a2K-Jt-Ks4"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eYt-OM-aGn" secondAttribute="trailing" constant="8" id="eEp-8X-UfT"/>
+                <constraint firstItem="IEy-Me-wg4" firstAttribute="top" secondItem="X8D-Os-UQU" secondAttribute="bottom" constant="8" id="1or-B3-NNf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IEy-Me-wg4" secondAttribute="trailing" constant="8" id="f3n-xx-vHI"/>
+                <constraint firstItem="X8D-Os-UQU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="hPn-lh-tGy"/>
                 <constraint firstItem="xEO-Th-vji" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="hoe-KF-P0m"/>
-                <constraint firstItem="mQ5-aa-maZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="i8X-FA-N2G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X8D-Os-UQU" secondAttribute="trailing" constant="8" id="ku2-Sd-NLN"/>
                 <constraint firstItem="GXt-Mt-rqv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lkN-bX-ZZ3"/>
+                <constraint firstItem="IEy-Me-wg4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="r2u-UT-Vg8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="IEy-Me-wg4" secondAttribute="bottom" constant="32" id="rJO-yo-VRf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GXt-Mt-rqv" secondAttribute="trailing" id="zDl-Jp-YPX"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="GXt-Mt-rqv" secondAttribute="top" constant="44" id="zx6-h3-7eP"/>
             </constraints>
